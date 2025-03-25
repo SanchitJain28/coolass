@@ -10,11 +10,11 @@ export default function Navbar() {
                     className='w-52 lg:mx-20' />
             </div>
             <div className="flex items-center lg:mx-8">
-                <a className='text-white mx-4 text-lg'>Features</a>
-                <a className='text-white mx-4 text-lg'>Blog</a>
-                <a className='text-white mx-4 text-lg'>Pricing</a>
-                <a className='text-white mx-4 text-lg'>Login</a>
-                <button className='py-2 px-4 border border-white mx-4 text-white'>
+                <a className='text-white mx-4 text-lg lg:inline hidden'>Features</a>
+                <a className='text-white mx-4 text-lg lg:inline hidden'>Blog</a>
+                <a className='text-white mx-4 text-lg lg:inline hidden'>Pricing</a>
+                <a className='text-white mx-4 text-lg lg:inline hidden'>Login</a>
+                <button className='py-2 px-4 border lg:inline hidden border-zinc-400 mx-4 text-white'>
                     Get access now
                     </button>
             </div>
