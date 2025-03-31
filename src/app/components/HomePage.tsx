@@ -93,8 +93,8 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      {/* PART2  */}
 
+      {/* PART2  */}
       <div
         id="part2"
         className=" lg:px-40 lg:w-1/2 text-center px-12 font-sans mx-auto"
@@ -116,16 +116,18 @@ export default function HomePage() {
           We got you covered.
         </p>
       </div>
-      {/* PART3  */}
 
+      {/* PART3  */}
       <div
         id="part3 "
         className="lg:px-80  flex xl:flex-row flex-col px-12 py-12 xl:items-center"
       >
         <div className="flex flex-col basis-4/12 ">
           <div className="my-4">
-            <div className="flex">
-              <Lightbulb color="#ffffff" size={30} className="" />
+            <div className="flex items-center">
+                <div className="bg-[#0F172A] p-2 rounded-lg ">
+                <Lightbulb color="#ffffff" size={25} className="stroke-[#B543C9]" />
+                </div>
               <p className="bg-gradient-to-r from-[#D24E1C] via-[#C540C8] to-[#4E3FD0] bg-clip-text text-transparent text-xl mx-2">
                 We did the hard work for you
               </p>
@@ -143,9 +145,15 @@ export default function HomePage() {
             </p>
           </div>
           <div className="my-4">
-            <p className="bg-gradient-to-r from-[#D24E1C] via-[#C540C8] to-[#4E3FD0] bg-clip-text text-transparent text-xl mx-2">
+            <div className="flex items-center">
+            <div className="bg-[#0F172A] p-2 rounded-lg ">
+                <Lightbulb color="#ffffff" size={25} className="stroke-[#B543C9]" />
+                </div>
+                <p className="bg-gradient-to-r from-[#D24E1C] via-[#C540C8] to-[#4E3FD0] bg-clip-text text-transparent text-xl mx-2">
               Filter based on your needs
             </p>
+            </div>
+           
             <p className="text-zinc-400 text my-4 ">
               We have conveniently categorized all videos based on a number of
               features such as length, video type and industry so you can find
@@ -160,9 +168,15 @@ export default function HomePage() {
             </p>
           </div>
           <div className="my-4">
+            <div className="flex items-center">
+            <div className="bg-[#0F172A] p-2 rounded-lg ">
+                <Lightbulb color="#ffffff" size={25} className="stroke-[#B543C9]" />
+                </div>
             <p className="bg-gradient-to-r from-[#D24E1C] via-[#C540C8] to-[#4E3FD0] bg-clip-text text-transparent text-xl mx-2">
               Pay once, love forever
             </p>
+            </div>
+           
             <p className="text-zinc-400 text my-4 ">
               Not another annoying subscription. Get lifetime access to our
               library of high quality SaaS videos for single one-time payment.
@@ -177,7 +191,8 @@ export default function HomePage() {
             className="lg:block hidden"
           />
         </div>
-        <div className="basis-7/12">
+        
+        <div className="basis-7/12 bg-gradient-to-r from-[#F77025] via-[#E65895] to-[#5246E5] p-4">
           <video
             className="lg:my-8 my-4 lg:mx-0  lg:rounded-lg rounded-2xl shadow-lg"
             autoPlay
@@ -190,8 +205,8 @@ export default function HomePage() {
           </video>
         </div>
       </div>
-      {/* PART4  */}
 
+      {/* PART4  */}
       <div
         id="part4"
         className="text-center lg:py-16 py-12 flex lg:px-0 px-8 flex-col justify-center items-center"
@@ -210,8 +225,8 @@ export default function HomePage() {
         </p>
         <img src="https://www.productvideoexamples.com/_nuxt/toolsmarketing.11c3fa7d.jpg" />
       </div>
-      {/* PART5  */}
 
+      {/* PART5  */}
       <div
         id="part5"
         className="text-center py-20 lg:px-0 px-8 flex flex-col justify-center items-center font-sans"
@@ -255,10 +270,11 @@ export default function HomePage() {
         </div>
       </div>
       {/* PART6  */}
-
       <div id="part6" className="flex justify-center pb-20">
         <img src="https://www.productvideoexamples.com/_nuxt/videosmarketing.3301effd.jpg" />
       </div>
+
+      {/* PART7  */}
       <div
         id="part7"
         className="flex flex-col justify-center items-center py-8 px-12  mx-auto w-2/3"
