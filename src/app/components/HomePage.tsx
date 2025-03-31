@@ -1,5 +1,12 @@
 "use client";
-import { Award, CornerDownRight, GraduationCap, Heart, Layers, Lightbulb } from "lucide-react";
+import {
+  Award,
+  CornerDownRight,
+  GraduationCap,
+  Heart,
+  Layers,
+  Lightbulb,
+} from "lucide-react";
 import React from "react";
 import Video1 from "./Video1";
 
@@ -254,7 +261,7 @@ export default function HomePage() {
       </div>
       <div
         id="part7"
-        className="flex flex-col justify-center items-center py-8 px-12"
+        className="flex flex-col justify-center items-center py-8 px-12  mx-auto w-2/3"
       >
         <p className="text-white lg:text-5xl text-3xl font-bold my-4 ">
           Pay{" "}
@@ -263,17 +270,18 @@ export default function HomePage() {
           </span>{" "}
           use forever
         </p>
-        <div className="flex py-8">
-          <div className="flex flex-col justify center bg-[#030405]  pr-32 pl-8 py-8 rounded-lg ">
+        <div className="flex py-8 ">
+          <div className="flex flex-col justify center bg-[#030405]   pr-32 pl-8 py-8  rounded-lg ">
             <p className="text-white lg:text-4xl text-3xl  my-4 ">
-              Learn from a growing library<br/> of{" "}
+              Learn from a growing library
+              <br /> of{" "}
               <span className="bg-gradient-to-r from-[#D24E1C] via-[#C540C8] to-[#4E3FD0] bg-clip-text text-transparent">
                 product videos
               </span>
             </p>
             <div className="flex items-center my-4">
               <div className="bg-[#F79533] p-2 rounded-lg mr-4">
-              <Layers color="#FFFFFF" />
+                <Layers color="#FFFFFF" />
               </div>
               <div className="flex flex-col">
                 <p className="text-white font-bold text-lg">
@@ -287,34 +295,66 @@ export default function HomePage() {
             </div>
             <div className="flex items-center my-4">
               <div className="bg-[#F37055] p-2 rounded-lg mr-4">
-              <GraduationCap color="#FFFFFF" />
+                <GraduationCap color="#FFFFFF" />
               </div>
               <div className="flex flex-col">
                 <p className="text-white font-bold text-lg">
-                Tools and Tutorials
+                  Tools and Tutorials
                 </p>
                 <p className="text-zinc-500 ">
-                Get access to tools and tutorials (soon) on how you can easily create your own engaging product videos with little effort.
+                  Get access to tools and tutorials (soon) on how you can easily
+                  create your own engaging product videos with little effort.
                 </p>
               </div>
             </div>
             <div className="flex items-center my-4">
               <div className="bg-[#EF4E7B] p-2 rounded-lg mr-4">
-              <Heart color="#ffffff" />
+                <Heart color="#ffffff" />
               </div>
               <div className="flex flex-col">
                 <p className="text-white font-bold text-lg">
-                Pay once, love forever
-
+                  Pay once, love forever
                 </p>
                 <p className="text-zinc-500 ">
-                Not another annoying subscription. Get lifetime access to our library of high quality product videos for single one-time payment. ROI guaranteed.
+                  Not another annoying subscription. Get lifetime access to our
+                  library of high quality product videos for single one-time
+                  payment. ROI guaranteed.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col" id="">
-            
+          <div
+            className="flex flex-col bg-[#111827] basis-1/2 p-8 items-center mx-2 rounded-lg"
+            id=""
+          >
+            <button className="bg-gradient-to-r from-[#E85629] via-[#C746ED] to-[#5546E5] text-sm text-white px-4 rounded-xl py-2 font-bold">
+              LIMITED TIME OFFER
+            </button>
+            <div className="flex flex-col py-4 justify-center items-center">
+              <p className="text-white text-4xl font-bold my-2">$29</p>
+              <p className="text-zinc-400 my-1">
+                One-time payment, access forever!
+              </p>
+              <p className="text-zinc-400 my-1">
+                <span className="bg-gradient-to-r from-[#B667CF] via-[#9D73DB] to-[#686CC0] text-transparent bg-clip-text">
+                  Forever
+                </span>{" "}
+                full access
+              </p>
+              <p className="text-green-600 text-xs my-1">
+                {" "}
+                Unlimited views and access.
+              </p>
+            </div>
+            <button className="px-6 py-3 text-white bg-black rounded-full border-[1px] border-red-600">
+              Get full access now
+            </button>
+            <div className="flex flex-col items-center justify-center py-6">
+              <p className="text-zinc-500 ">14 Days Money Back Guarantee</p>
+              <p className="text-zinc-700 text-center text-sm">
+                Buy clicking the purchase button above you agree with our terms.
+              </p>
+            </div>
           </div>
         </div>
       </div>
