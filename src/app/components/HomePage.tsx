@@ -97,17 +97,16 @@ export default function HomePage() {
       {/* PART2  */}
       <div
         id="part2"
-        className=" lg:px-40 lg:w-1/2 text-center px-12 font-sans mx-auto"
+        className=" lg:px-40 xl:w-1/2 text-center px-12 font-sans mx-auto"
       >
-        <div className="flex">
-          <p className="text-white lg:text-5xl text-3xl font-bold my-4 ">
+       
+          <p className="text-white xl:text-5xl my-8 text-3xl text-center font-bold my-4 ">
             Finding inspiration is{" "}
             <span className="bg-gradient-to-r from-orange-500 to-blue-600 bg-clip-text text-transparent">
               hard.
             </span>
             <br className="lg:inline hidden" /> Stop wasting your time.
           </p>
-        </div>
         <p className="text-zinc-400 lg:text-xl my-4 ">
           You are a SaaS founder, marketing agency or video freelancer and are
           planning to create a product video that will stand out from the crowd?
@@ -120,7 +119,7 @@ export default function HomePage() {
       {/* PART3  */}
       <div
         id="part3 "
-        className="lg:px-80  flex xl:flex-row flex-col px-12 py-12 xl:items-center"
+        className="lg:px-40  flex xl:flex-row flex-col px-12 py-12 xl:items-center"
       >
         <div className="flex flex-col basis-4/12 ">
           <div className="my-4">
@@ -196,11 +195,11 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-        <div className="mx-20 basis-1/12">
+        <div className="mx-20 basis-1/12 my-8">
           <CornerDownRight
             color="#ffffff"
             size={100}
-            className="lg:block hidden"
+            className="xl:block hidden"
           />
         </div>
         <div className="bg-[#181546] pb-4 pl-4 rounded-xl -mx-2 -my-2">
@@ -292,7 +291,7 @@ export default function HomePage() {
       {/* PART7  */}
       <div
         id="part7"
-        className="flex flex-col justify-center items-center py-8 px-12  mx-auto w-2/3"
+        className="flex flex-col justify-center items-center py-8 lg:px-12  mx-auto lg:w-2/3"
       >
         <p className="text-white lg:text-5xl text-3xl font-bold my-4 ">
           Pay{" "}
@@ -301,8 +300,8 @@ export default function HomePage() {
           </span>{" "}
           use forever
         </p>
-        <div className="flex py-8 ">
-          <div className="flex flex-col justify center bg-[#030405]   pr-32 pl-8 py-8  rounded-lg ">
+        <div className="flex xl:flex-row flex-col py-8 lg:px-0 px-4">
+          <div className="flex flex-col justify center bg-[#030405] lg:pr-32 lg:pl-8 px-4 py-8  rounded-lg ">
             <p className="text-white lg:text-4xl text-3xl  my-4 ">
               Learn from a growing library
               <br /> of{" "}
@@ -315,10 +314,10 @@ export default function HomePage() {
                 <Layers color="#FFFFFF" />
               </div>
               <div className="flex flex-col">
-                <p className="text-white font-bold text-lg">
+                <p className="text-white font-bold lg:text-lg">
                   134+ product video examples
                 </p>
-                <p className="text-zinc-500 ">
+                <p className="text-zinc-500 lg:text text-sm">
                   Full access to hundreds of product video examples for
                   inspiration.
                 </p>
@@ -329,24 +328,24 @@ export default function HomePage() {
                 <GraduationCap color="#FFFFFF" />
               </div>
               <div className="flex flex-col">
-                <p className="text-white font-bold text-lg">
+                <p className="text-white font-bold lg:text-lg">
                   Tools and Tutorials
                 </p>
-                <p className="text-zinc-500 ">
+                <p className="text-zinc-500 text-sm">
                   Get access to tools and tutorials (soon) on how you can easily
                   create your own engaging product videos with little effort.
                 </p>
               </div>
             </div>
-            <div className="flex items-center my-4">
-              <div className="bg-[#EF4E7B] p-2 rounded-lg mr-4">
+            <div className="flex my-4">
+              <div className="bg-[#EF4E7B] p-2 rounded-lg mr-4 h-10">
                 <Heart color="#ffffff" />
               </div>
-              <div className="flex flex-col">
-                <p className="text-white font-bold text-lg">
+              <div className="flex flex-col items-start">
+                <p className="text-white font-bold lg:text-lg">
                   Pay once, love forever
                 </p>
-                <p className="text-zinc-500 ">
+                <p className="text-zinc-500 text-sm">
                   Not another annoying subscription. Get lifetime access to our
                   library of high quality product videos for single one-time
                   payment. ROI guaranteed.
@@ -393,10 +392,10 @@ export default function HomePage() {
       {/* PART8  */}
 
       <div
-        className="w-1/3 mx-auto py-12 flex flex-col items-center"
+        className="lg:w-1/3 mx-auto py-12 lg:px-0 px-8 flex flex-col items-center"
         id="part8"
       >
-        <p className="text-zinc-400 text-center">
+        <p className="text-zinc-400 text-center lg:text-lg text-sm">
           Discovering Product Video Examples was a game-changer for our product
           launch! The platform saved us countless hours searching for inspiring
           videos. With their incredible library, we found the perfect
@@ -423,16 +422,16 @@ export default function HomePage() {
       <div className="" id="">
         <img
           src="https://www.productvideoexamples.com/_nuxt/gradient-bg-footer.51e46e1d.svg"
-          className="z-0 absolute"
+          className="z-0 absolute xl:block hidden"
         />
-        <div className="flex absolute  z-10   justify-center mx-auto py-12 px-40">
-          <div className="flex flex-col px-12 basis-1/2 px-24">
+        <div className="flex xl:flex-row flex-col absolute  justify-center mx-auto py-12 lg:px-40 px-4">
+          <div className="flex flex-col px-4 basis-1/2 lg:px-12">
             <img
               src="https://www.productvideoexamples.com/_nuxt/product_video_examples_logo.ce3a8ea9.png"
               alt=""
-              className="w-48"
+              className="w-48 -ml-2"
             />
-            <p className="text-white text-sm my-4">
+            <p className="text-zinc-400 lg:text-sm text-xs my-4">
               Learn from more than 100+ carefully selected videos of companies
               that creat engaging, shareable videos that not only boost brand
               awareness but also convert customers.
@@ -448,9 +447,11 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <p className="text-zinc-500">© Copyright 2025. All Rights Reserved by Seven Degrees Labs LLC.</p>
+            <p className="text-zinc-500">
+              © Copyright 2025. All Rights Reserved by Seven Degrees Labs LLC.
+            </p>
           </div>
-          <div className="flex flex-col basis-1/4 px-12">
+          <div className="flex flex-col basis-1/4 lg:px-12 px-4 py-4">
             <p className="text-zinc-400">Company</p>
             <p className="my-2 text-white">Features</p>
             <p className="my-2 text-white">Pricing</p>
@@ -458,12 +459,11 @@ export default function HomePage() {
             <p className="my-2 text-white">Terms</p>
             <p className="my-2 text-white">Privacy</p>
           </div>
-          <div className="flex flex-col basis-1/4 px-12">
-          <p className="text-zinc-400">Support</p>
-          <p className="my-2 text-white">Contact us</p>
-
+          <div className="flex flex-col basis-1/4 lg:px-12 px-4 py-4">
+            <p className="text-zinc-400">Support</p>
+            <p className="my-2 text-white">Contact us</p>
           </div>
-          <div className="flex flex-col basis-1/4 px-12">
+          <div className="flex flex-col basis-1/4 lg:px-12 px-4 py-4">
             <p className="text-zinc-400">About</p>
             <p className="my-2 text-white">Made by Sanchit jain ツ</p>
           </div>
