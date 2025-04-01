@@ -18,7 +18,7 @@ export default function HomePage() {
         id="part1"
         className="lg:px-40 lg:py-20 p-12 flex xl:flex-row flex-col justify-between"
       >
-        <div className="flex flex-col lg:basis-1/2 lg:pl-28 lg:py-12">
+        <div className="flex flex-col lg:basis-1/2 lg:pl-28 lg:py-12  ">
           {/* //BUTTON */}
           <div className="flex bg-[#221D21] items-center px-4 py-2 w-60 rounded-lg my-2">
             <div className="basis-1/4">
@@ -386,6 +386,86 @@ export default function HomePage() {
                 Buy clicking the purchase button above you agree with our terms.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* PART8  */}
+
+      <div
+        className="w-1/3 mx-auto py-12 flex flex-col items-center"
+        id="part8"
+      >
+        <p className="text-zinc-400 text-center">
+          Discovering Product Video Examples was a game-changer for our product
+          launch! The platform saved us countless hours searching for inspiring
+          videos. With their incredible library, we found the perfect
+          inspiration for our Product Hunt launch in no time. Product Video
+          Examples is truly the ultimate site for creative SaaS video
+          inspiration!&quot;
+        </p>
+        <img
+          src="https://tailscan.com/erwin.jpg"
+          className="rounded-full w-12 h-12 mt-8 mv-4"
+        />
+        <p className="font-sans my-2 font-light text-zinc-400">
+          Erwin, CEO of Tailscan
+        </p>
+        <img
+          src="https://tailscan.com/mediakit/4_Colour_Logo.png"
+          alt=""
+          className="w-28"
+        />
+      </div>
+
+      {/* PART9  */}
+
+      <div className="" id="">
+        <img
+          src="https://www.productvideoexamples.com/_nuxt/gradient-bg-footer.51e46e1d.svg"
+          className="z-0 absolute"
+        />
+        <div className="flex absolute  z-10   justify-center mx-auto py-12 px-40">
+          <div className="flex flex-col px-12 basis-1/2 px-24">
+            <img
+              src="https://www.productvideoexamples.com/_nuxt/product_video_examples_logo.ce3a8ea9.png"
+              alt=""
+              className="w-48"
+            />
+            <p className="text-white text-sm my-4">
+              Learn from more than 100+ carefully selected videos of companies
+              that creat engaging, shareable videos that not only boost brand
+              awareness but also convert customers.
+            </p>
+            <div className="inline-flex bg-[#221D21] items-center px-4 py-2 w-fit rounded-lg my-2">
+              <div className="">
+                <Award size={24} color="#ffffff" />
+              </div>
+              <div className="flex flex-col ">
+                <p className="text-white text-xs">Product hunt</p>
+                <p className="text-white text-sm font-bold">
+                  #2 Product of the day
+                </p>
+              </div>
+            </div>
+            <p className="text-zinc-500">© Copyright 2025. All Rights Reserved by Seven Degrees Labs LLC.</p>
+          </div>
+          <div className="flex flex-col basis-1/4 px-12">
+            <p className="text-zinc-400">Company</p>
+            <p className="my-2 text-white">Features</p>
+            <p className="my-2 text-white">Pricing</p>
+            <p className="my-2 text-white">Blog</p>
+            <p className="my-2 text-white">Terms</p>
+            <p className="my-2 text-white">Privacy</p>
+          </div>
+          <div className="flex flex-col basis-1/4 px-12">
+          <p className="text-zinc-400">Support</p>
+          <p className="my-2 text-white">Contact us</p>
+
+          </div>
+          <div className="flex flex-col basis-1/4 px-12">
+            <p className="text-zinc-400">About</p>
+            <p className="my-2 text-white">Made by Sanchit jain ツ</p>
           </div>
         </div>
       </div>
